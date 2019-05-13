@@ -15,6 +15,4 @@ echo "connect = 127.0.0.1:$portserv" >> /etc/stunnel/stunnel.conf
 sleep 5
 echo "Reiniciando Servicio : Stunnel4"
 service stunnel4 restart 1> /dev/null 2> /dev/null
-sleep 5
-vpspack
 fi
